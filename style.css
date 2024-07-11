@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+.logo img {
+    max-width: 600px;
+
+
+}
+body {
+    background-color: black;
+    font-family: 'Star Wars', sans-serif;
+
+}
+
+img{
+    max-width: 1700px ;
+    width: 100%;
+
+}
+
+
+.anime {
+    position: relative;
+    overflow: hidden;
+}
+.anime:hover .logo {
+    top: 10%;
+}
+
+.anime .logo {
+    color:  #ffc107;;
+    text-align: center;
+    position: absolute;
+    top: -800px;
+    transition: 1s;
+    fonst-family: 'Star Wars';
+    font-size: 150px;
+
+
+}
+
+.people {
+    position: relative;
+    overflow: hidden;
+}
+
+.people:hover .logo-2 {
+    top: 30%;
+}
+
+.people .logo-2 {
+    color:  #ffc107;
+    text-align: left;
+    position: absolute;
+    top: -410px;
+    transition: 1s;
+    font-family: 'Heavy Metal Blight', sans-serif;
+    font-size: 40px;
+}
+
+
+
+
+.starship {
+    position: relative;
+    overflow: hidden;
+}
+
+.starship:hover .logo-3 {
+    top: 20%;
+}
+
+.starship .logo-3 {
+
+    color:  #ffc107;
+    text-align: left;
+    position: absolute;
+    top: -810px;
+    transition: 2s;
+    font-family: 'Heavy Metal Blight', sans-serif;
+    font-size: 40px;
+}
+
+.logo-3 {
+    width: 400px;
+}
